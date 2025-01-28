@@ -11,4 +11,13 @@
     <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="billion.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="thousand.txt" />
+    <EmbeddedResource Include="thousand.txt" />
+  </ItemGroup>
+
 </Project>
